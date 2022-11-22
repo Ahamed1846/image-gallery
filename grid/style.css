@@ -1,0 +1,17 @@
+*{
+    background-color: rgb(133, 133, 133);
+}
+#imgtag{
+    display: grid;
+    grid-template-columns:600px 600px 600px;
+    grid-template-rows:600px 600px 600px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}
+.img{
+    width: fit-content;
+    height: fit-content;
+}
